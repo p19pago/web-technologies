@@ -2,4 +2,4 @@
 
 ## **Πέμπτη 16 Μαρτίου 2023**
 
-### Εισαγωγή στη γλώσσα CSS - CSS & HTML - Part 2
+### Εισαγωγή στη γλώσσα CSS - CSS & HTML - Advanced CSS - Part 2
