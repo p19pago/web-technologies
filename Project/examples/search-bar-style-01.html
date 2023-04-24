@@ -1,0 +1,135 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+<style>
+
+    body {
+      font-family: Segoe UI;
+      background-color: white;
+    }
+
+    .header{
+        background-color: ghostwhite;
+        box-shadow: 5px 5px 5px lightgray;
+        padding: 10px;
+        text-align: left;
+        font-size: 10pt;
+    }
+
+    li{
+      color: darkslategray;
+    }
+
+    .menu-item{
+      color: darkslategray;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .menu-item a{
+      color: darkslategray;
+        text-decoration: none;
+    }
+
+    form input[id="search-field"]{
+      width: 500px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .search-bar{
+      display: inline-block;
+        overflow: hidden;
+        height: 50pt;
+        float: none;
+    }
+
+    .search-button{
+      position: relative;
+        padding: 10px 10px;
+        margin: 10px;
+        display: inline-block;
+        font-family: Segoe UI;
+        background-color: gainsboro;
+        border-radius: 10px;
+        width: 50pt;
+    }
+
+    .login-button{
+      position: relative;
+      display: inline-block;
+        height: 50px;
+        float: right;
+        background-color: lightblue;
+        padding: 10px 10px 10px 10px;
+        color: darkslategray;
+        font-family: Segoe UI;
+        width: 50pt;
+        border-radius: 7px;
+        margin-left: 5pt;
+    }
+
+    .submit-button{
+      position: relative;
+        display: inline-block;
+        height: 50px;
+        float: right;
+        width: 50pt;
+        margin-right: 5pt;
+        border-radius: 7px;
+        background-color: powderblue;
+        color: white;
+
+    }
+
+    .header-menu{
+      text-align: left;
+    }
+
+    .menu-item a:hover{
+      background-color: #dddddd;
+        color: darkslategray;
+        padding: 3pt;
+        margin: 3pt;
+        border-radius: 7px;
+    }
+
+}
+</style>
+</head>
+<body>
+
+    <div class="header">
+      <div id="headerelement" class="header-element">
+          <ul class="header-menu" role="presentation">
+            <li class="menu-item">
+              <a href="#" id="about">About</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" id="howto">How To Use</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" id="reghowto">Registration How-To</a>
+            </li>
+          </ul>
+        </div>
+        <div class="search-bar">
+          <form id="search">
+              <input name="query" type="text" placeholder="Search this site..." role="combobox" autocomplete="off" maxlength="240" id="search-field">
+                <button type="submit" id="submit-button" class="search-button">Search!</button>
+            </form>
+        </div>
+        <button type="submit" class="login-button">Log In</button>
+        <button type="submit" class="submit-button">Sign Up</button>
+    </div>
+
+    <h2>Search Bar Customization Example</h2>
+    <p>Navigation bar with a search box inside of it.</p>
+    <p>It also features a main menu on what to do on this site, as well as responsive effect for smaller tabs.</p>
+    <p>On the right it also includes two buttons which are used for log in and sign up features and they have not been customized yet to redirect to their corresponding page.</p>
+    <p><b>Resize the browser window to see the responsive effect.</b></p>
+    <p>The whole site needs to be customized each...</p>
+
+</body>
+</html>
